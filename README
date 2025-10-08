@@ -1,23 +1,23 @@
-# Multi-Site VOIP and Dial Peering Project
+#Multi-Site VOIP and Dial Peering Project
 
 This project outlines a multi-site network incorporating both VOIP devices connected to PC's allowing both voice and data packets to be transmitted over the network via a collection of VLANs. This project will aim to showcase some of the basic competencies outlined within the CompTIA Network+ and Cisco CCNA certifications.
 
 This network is based on the hub model for networks with a central router providing connectivity to all four sites. Each site contains a router, switch and a combination of IP phones and desktop PC's. Each router has a DHCP pool configured which allows the end user devices to be automatically assigned an IP address automatically. All four sites are interconnected with each other and routing is provided by the OSPF protocol.
 
-## What is VOIP?
+##What is VOIP?
 VOIP stands for Voice over Internet Protocol. This technology allows for phone and video calls to be made over the internet instead of via an analog phone network. VOIP services are great for organisations looking to set up telephony over their existing broadband networks. 
 
-## What is OSPF?
+##What is OSPF?
 OSPF stands for Open Shortest Path First. It is a common interior gateway protocol used for routing between internal networks. It is a link state protocol which attempts to find the best route based on throughput, reliability and round-trip time. Each link is considered to have its own cost and the lowest cost and the fastest path wins.
 
-## Network Topology
+##Network Topology
 
 
 
 
 
 
-## How it's Made
+##How it's Made
 This project can be done entirely within Cisco Packet Tracer.
 
 1. Construct your network topology as shown in the diagram. Use type 2811 for the router, type 2960 for the switch, and the default models for the IP phone (type 7960) and the PC. 
@@ -114,7 +114,7 @@ network 4.4.4.1 0.0.0.255 a 0
 exit
 do wr
 
-## Reflections
+##Reflections
 
  - Initially, DHCP was not working on site B, C and D after configuration but once dial-peering and OSPF was configured all systems were registering on the network normally
  - In order to ensure full interconnectivity across sites, dial-peering and OSPF must be configured individually on all 4 sites as well as on the host router or else some numbers will not dial
