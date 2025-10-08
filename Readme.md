@@ -12,6 +12,7 @@ OSPF stands for Open Shortest Path First. It is a common interior gateway protoc
 
 ## Network Topology
 
+![Network Topology](/Assets/Images/Network Topology.jpg "Network Topolgy")
 ## How it's Made
 This project can be done entirely within Cisco Packet Tracer.
 
