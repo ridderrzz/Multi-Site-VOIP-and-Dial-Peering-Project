@@ -22,9 +22,17 @@ This project can be done entirely within Cisco Packet Tracer.
 4. Double click on the router in Site A, navigate to the physical tab, locate the power switch and shut down the router, then find the 'WIC-1T' module and drag it onto the router. Then switch the router back on. Repeat for the remaining 3 sites.
 5. Configure the switch and the routers for each of the sites.
 6. Switch Commands:
-- en, conf t, vlan 10, vlan 20, exit
-- int range fa0/2-3, switchport mode access, switchport access vlan 20, switchport voice vlan 10
-- exit, do wr
+- `en`
+- `conf t`
+- `vlan 10`
+- `vlan 20`
+- `exit`
+- `int range fa0/2-3`
+- `switchport mode access`
+- `switchport access vlan 20`
+- `switchport voice vlan 10`
+- `exit`
+- `do wr`
 7. Router Commands:
 -  `en`
 -  `conf t`
