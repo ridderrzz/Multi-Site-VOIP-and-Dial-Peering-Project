@@ -13,6 +13,11 @@ OSPF stands for Open Shortest Path First. It is a common interior gateway protoc
 ## Network Topology
 
 ![Network Topology](https://github.com/ridderrzz/Multi-Site-VOIP-and-Dial-Peering-Project/blob/d9112f49c7404045a2bfe1142a65066f733c5bd1/Assets/Images/Network%20Topology.jpg)
+
+## Test Call
+
+![IP Phone Test](https://github.com/ridderrzz/Multi-Site-VOIP-and-Dial-Peering-Project/blob/main/Assets/Images/IP%20Phone%20Test.jpg)
+
 ## How it's Made
 This project can be done entirely within Cisco Packet Tracer.
 
